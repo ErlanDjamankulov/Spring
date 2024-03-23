@@ -3,11 +3,11 @@
 ## Установка
 1. Клонируйте репозиторий:
 
-    git clone https://github.com/your-username/django-rest-project.git
+    git clone [https://github.com/your-username/django-rest-project.git](https://github.com/ErlanDjamankulov/Spring/)
     
 2. Перейдите в директорию проекта:
 
-    cd django-rest-project
+    cd Spring2024
 
 3. Создайте виртуальное окружение (рекомендуется):
 
