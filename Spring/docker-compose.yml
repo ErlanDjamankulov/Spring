@@ -5,13 +5,13 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_DB: dbname
-      POSTGRES_USER: dbuser
-      POSTGRES_PASSWORD: dbpassword
+      POSTGRES_DB: 'company',
+      POSTGRES_USER: 'postgres',
+      POSTGRES_PASSWORD: 'admin',
 
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver localhost:8000
     volumes:
       - .:/code
     ports:
